@@ -1,0 +1,7 @@
+name: 'Build Docker Image'
+description: 'GitHub Action that runs a Docker container using a Dockerfile'
+author: 'Sandeep'
+ 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
